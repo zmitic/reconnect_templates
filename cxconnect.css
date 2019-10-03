@@ -7,7 +7,7 @@
 }
 
 .inner-page .main-search-container {
-    height: 520px;
+    height: 880px;
 }
 
 .inner-page .main-search-inner {
@@ -16,6 +16,14 @@
 
 .inner-page .main-search-container h4 {
     font-size: 25px;
+}
+
+.main-search-inner .category-small-box h4 {
+    font-size: 16px;
+    color: #333;
+    transition: 0.4s;
+    line-height: 22px;
+    margin-top: 8px;
 }
 
 .benefits-icons .icon-box-2.with-line:before {
@@ -82,8 +90,8 @@
 }
 
 .category-box-header .category-small-box i {
-	font-size: 34px;
-	height: 34px;
+	font-size: 42px;
+	height: 40px;
 	display: inline-block;
 	margin-top: 8px;
 }
@@ -113,9 +121,17 @@
 }
 @media (min-width: 768px) {
 	.category-box-header .category-small-box { width: calc(100% * (1/4) - 21px); }
+
+	.inner-page .main-search-container {
+		height: 600px;
+	}
 }
 @media (min-width: 992px) {
-	.category-box-header .category-small-box { width: calc(100% * (1/5) - 21px); }
+	.category-box-header .category-small-box { width: calc(100% * (1/4) - 21px); }
+
+	.inner-page .main-search-container {
+		height: 540px;
+	}
 }
 @media (min-width: 1240px) {
 	.category-box-header .category-small-box { width: calc(100% * (1/8) - 21px); }
