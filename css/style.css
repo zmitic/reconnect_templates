@@ -1809,7 +1809,6 @@ em.mm-counter+a.mm-fullsubopen+span {
 	box-shadow: none;
 }
 
-
 /* Main Search Input */
 .main-search-input {
 	margin-top: 50px;
@@ -9825,6 +9824,9 @@ span.like-icon {
 }
 @media (min-width: 1240px) {
 	.category-small-box { width: calc(100% * (1/6) - 21px); }
+	.main-search-inner .category-small-box {
+		width: calc(100% * (1/8) - 21px);
+	}
 }
 
 
